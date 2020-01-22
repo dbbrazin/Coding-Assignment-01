@@ -17,13 +17,13 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-
+//updated the colors
     @IBAction func userDidPressButton(_ sender: UIButton) {
         self.numberTaps+=1
-        if (sender.backgroundColor == .yellow) {
-            sender.backgroundColor = .orange
+        if (sender.backgroundColor == .green) {
+            sender.backgroundColor = .red
         } else {
-            sender.backgroundColor = .yellow
+            sender.backgroundColor = .orange
         }
         updateNumberTapsLabel()
     }
